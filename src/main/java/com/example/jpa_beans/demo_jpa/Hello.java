@@ -9,6 +9,11 @@ public class Hello {
         return message;
     }
 
+    public Hello(String message, String data) {
+        this.message = message;
+        this.data = data;
+    }
+
     public void setMessage(String message) {
         this.message = message;
     }
@@ -20,6 +25,7 @@ public class Hello {
     public void setData(String data) {
         this.data = data;
     }
+
 
     @Override
     public String toString() {
